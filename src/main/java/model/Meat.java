@@ -1,5 +1,5 @@
 package model;
-import static model.constants.Discount.meatDiscount;
+import static model.constants.Discount.MEAT_DISCOUNT;
 
 public class Meat extends  Food{
     public Meat(int amount, double price){
@@ -9,6 +9,6 @@ public class Meat extends  Food{
     }
     @Override
     public double getDiscount(){
-        return meatDiscount;
+        return MEAT_DISCOUNT;
     }
 }

@@ -1,7 +1,7 @@
 package model.constants;
 
 public class Discount {
-    public static double redAppleDiscount = 60;
-    public static double greenAppleDiscount = 0;
-    public static double meatDiscount = 0;
+    public static final double RED_APPLE_DISCOUNT = 60;
+    public static final double GREEN_APPLE_DISCOUNT = 0;
+    public static final double MEAT_DISCOUNT = 0;
 }
